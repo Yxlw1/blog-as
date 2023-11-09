@@ -1,0 +1,104 @@
+$primary: #C81D25;
+$secondary: #353238;
+$info: #C1B4AE;
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=PT+Sans:wght@400;700&display=swap');
+@import 'bootstrap/scss/bootstrap';
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css");
+
+$FuenteHeading: 'PT Sans', sans-serif;
+$FuenteParrafos: 'Open Sans', sans-serif;
+
+body {
+    font-size: 16px;
+    font-family: $FuenteParrafos;
+    line-height: 1.5;
+    background-color: #eaecf1;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: $FuenteHeading;
+    line-height: 1.2;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 32px;
+}
+
+h4 {
+    font-size: 28px;
+}
+
+
+/* Utilidades*/
+
+.d-item {
+    height: 600px;
+}
+
+.d-img {
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.4);
+}
+
+.section-header h3:before,
+.section-header h3:after {
+    content: "";
+    width: 50px;
+    height: 4px;
+    background: $primary;
+    display: inline-block;
+}
+
+.section-header h3:before {
+    margin: 0 15px 10px 0;
+}
+
+.section-header h3:after {
+    margin: 0 0 10px 15px;
+}
+
+// .b-example-divider {
+//     height: 3rem;
+//     background-color: rgba(0, 0, 0, .1);
+//     border: solid rgba(0, 0, 0, .15);
+//     border-width: 1px 0;
+//     box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+//   }
+
+//   .form-control-dark {
+//     color: #fff;
+//     background-color: var(--bs-dark);
+//     border-color: var(--bs-gray);
+//   }
+//   .form-control-dark:focus {
+//     color: #fff;
+//     background-color: var(--bs-dark);
+//     border-color: #fff;
+//     box-shadow: 0 0 0 .25rem rgba(255, 255, 255, .25);
+//   }
+
+//   .bi {
+//     vertical-align: -.125em;
+//     fill: currentColor;
+//   }
+
+//   .text-small {
+//     font-size: 85%;
+//   }
+
+//   .dropdown-toggle {
+//     outline: 0;
+//   }
